@@ -9,4 +9,4 @@ compiler:
   - gcc
 
 script:
-  - $CXX world/code/c++/HelloWorld.cpp -o a.out && ./a.out
+  - $CXX ./helloworld.cpp -o a.out && ./a.out
